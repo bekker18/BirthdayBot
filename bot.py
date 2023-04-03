@@ -19,7 +19,6 @@ async def check():
         t1 = str(today.month) + '/' + str(today.day)
         now = datetime.datetime.now()
         t2= str(now.hour) + ':' + str(now.minute)
-        print(t1+ ' ' + t2)
         if t1 in dictionary and t2 == '7:0':
             await send('-1001897506606', f'Tabrik {dictionary[t1]}')
         time.sleep(60)
