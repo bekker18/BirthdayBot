@@ -9,7 +9,7 @@ bot = Bot(token='6299838570:AAFRHH1s7GwA15OvIsZ-shfOCwBnJBVMapQ')
 dp = Dispatcher(bot, storage=storage)
 #Beka gey
 for i in range (10):
-    i=+1
+    i=+3
 async def send_handler(chat_id, text):
     await bot.send_message(chat_id, text)
 async def send(chat_id, text):
