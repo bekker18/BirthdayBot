@@ -7,8 +7,8 @@ logger = logging.getLogger(__name__)
 storage = MemoryStorage()
 bot = Bot(token='6299838570:AAFRHH1s7GwA15OvIsZ-shfOCwBnJBVMapQ')
 dp = Dispatcher(bot, storage=storage)
-#Beka gey
-for i in range (10):
+#Tima gey
+for i in range (10): # eto che za huynya?
     i=+34
 async def send_handler(chat_id, text):
     await bot.send_message(chat_id, text)
